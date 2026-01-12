@@ -50,7 +50,7 @@ Schelling's model is one of the first examples of an agent-based model (ABM). Th
 
 Developed in 1971 by the economist Thomas Schelling, the model shows how a mild preference by individuals for neighbors of their own group results, in the long term, in macroscopic segregation patterns.
 
-For an explanation of the model's structure and agent behavior, see the example.ipynb notebook.
+For an explanation of the model's structure and agent behavior, see the [`example.ipynb`](example.ipynb) notebook.
 
 ## License
 
