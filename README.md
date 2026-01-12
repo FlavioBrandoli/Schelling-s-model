@@ -9,7 +9,7 @@ This project implements a simple code to simulate the well known Schelling's mod
 - `agents.jl` – defines the agent types used in the simulation.
 - `model.jl` – contains the model initialization function and the step functions.
 - `functions.jl` – includes helper functions used to run and analyze the simulation.
-- `examples.ipynb` – Jupyter notebook with a simple simulation run and example plots.
+- `example.ipynb` – Jupyter notebook with a simple simulation run and example plots.
 - `Project.toml` / `Manifest.toml` – define the Julia environment for reproducibility.
 - `README.md` – project description and usage instructions.
 - `LICENSE` – open-source license (MIT) under which this project is distributed.
@@ -27,8 +27,8 @@ This project implements a simple code to simulate the well known Schelling's mod
 Clone the repository:
 
 ```bash
-git clone https://github.com/FlavioBrandoli/ABM-Rent-Gap-Gentrification.git
-cd ABM-Rent-Gap-Gentrification
+git clone https://github.com/FlavioBrandoli/Schelling-s-model.git
+cd Schelling-s-model
 ````
 
 Open Julia and activate the project environment:
@@ -43,15 +43,16 @@ This will install all required dependencies listed in the `Project.toml` and `Ma
 
 To run simulations or explore the model:
 
-👉 Refer to the [`examples.ipynb`](examples.ipynb) notebook, which includes all necessary `using` and `include` statements, as well as an example workflow for initializing and running the model.
+👉 Refer to the [`example.ipynb`](example.ipynb) notebook, which includes all necessary `using` and `include` statements, as well as an example workflow for initializing and running the model.
 
 
 ## Theoretical Background
 
-The model is based on the rent-gap theory (Smith, 1979), which explains inner-city gentrification (particularly in U.S. cities) as a process driven by the difference between actual and potential ground rent. According to this theory, as cities expand, new buildings are constructed on the outskirts, while little to no investment is made in the inner-city housing stock, which gradually deteriorates.
-As a result, the urban population becomes spatially divided: high-income residents settle in the newly developed suburbs, while low-income residents are increasingly concentrated in the neglected inner-city areas. This segregation persists until the gap between the potential ground rent and the actual rent being capitalized in the inner city becomes wide enough to justify profitable reinvestment. At that point, capital begins to flow back into these areas, attracting high-income residents and triggering gentrification.
+Schelling's model is one of the first examples of an agent-based model (ABM). Thanks to its simplicity, it is often used for pedagogical purposes and as a starting point to create more complex ABMs.
 
-For an explanation of the model's structure and agent behavior, see the `examples.ipynb` notebook.
+Developed in 1971 by the economist Thomas Schelling, the model shows how a mild preference by individuals for neighbors of their own group results, in the long term, in macroscopic segregation patterns.
+
+For an explanation of the model's structure and agent behavior, see the example.ipynb notebook.
 
 ## License
 
