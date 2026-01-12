@@ -1,7 +1,5 @@
 # Schelling's Model
 
-## Overview
-
 This project implements a simple code to simulate the well known Schelling's model of segregation. The code is written in Julia and uses the [Agents.jl](https://juliadynamics.github.io/Agents.jl/stable/) library.
 
 ## Repository Structure
